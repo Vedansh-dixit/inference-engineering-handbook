@@ -45,3 +45,5 @@ PASS tpot: 0.0100
 If a number in the book disagrees with these scripts, the book is wrong. Tell us: `errata@<domain>`.
 
 Code license: MIT (see LICENSE). The book itself: all rights reserved.
+
+Grab the copy of this book @  https://www.lulu.com/shop/vedansh-dixit/step-by-step-inference-engineering/ebook/product-w46yr9g.html?page=1&pageSize=4 
