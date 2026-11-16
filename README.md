@@ -1,7 +1,7 @@
 # Inference Engineering Handbook — companion scripts
 
 Four files that back the book. You need a GPU only for file two.
-
+**Get the Complete Book:** These scripts are the runnable companion code for ** https://www.lulu.com/shop/vedansh-dixit/step-by-step-inference-engineering/ebook/product-w46yr9g.html?page=1&pageSize=4 **—a practical guide covering KV-cache math, quantization trade-offs, continuous batching, and cloud unit economics.
 ## Setup in three steps
 
 ```bash
@@ -11,6 +11,10 @@ python 01_vram_calculator.py --selftest                # expect: 12/12 passed
 ```
 
 Then read `01_vram_calculator.py` alongside Chapter 1 — it implements the chapter's formulas (F-1 to F-4, F-7, F-8) as runnable arithmetic.
+## Why This Repo Exists
+
+Moving an LLM into production requires answering core engineering questions regarding VRAM limits, quantization without breaking dependencies, and measuring true tail latency (TTFT, ITL, TPOT, p99). Running the full GPU pipeline on an on-demand NVIDIA L4 costs under \$2 total.
+
 
 ## What each file does
 
@@ -41,8 +45,6 @@ PASS ttft: 0.250
 PASS mean itl: 0.0100
 PASS tpot: 0.0100
 ```
-
-If a number in the book disagrees with these scripts, the book is wrong. Tell us: `errata@<domain>`.
 
 Code license: MIT (see LICENSE). The book itself: all rights reserved.
 
